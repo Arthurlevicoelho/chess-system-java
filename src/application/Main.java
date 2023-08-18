@@ -1,9 +1,12 @@
 package application;
 
+import chess.ChessMacht;
+
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		ChessMacht chessMacht = new ChessMacht();
+		UI.printBoard(chessMacht.getPieces());
 
 	}
 
